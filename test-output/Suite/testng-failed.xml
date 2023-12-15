@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="DemoQa.DemoQa.Interactions">
+        <methods>
+          <include name="sortable"/>
+          <include name="afterSuite"/>
+          <include name="interaction"/>
+          <include name="beforeSuite"/>
+          <include name="droppable"/>
+          <include name="resizable"/>
+          <include name="selectable"/>
+          <include name="elements"/>
+          <include name="dragebble"/>
+        </methods>
+      </class> <!-- DemoQa.DemoQa.Interactions -->
+      <class name="DemoQa.DemoQa.Elements">
+        <methods>
+          <include name="radiobutton"/>
+          <include name="uploadAndDownload"/>
+          <include name="dynamicProperties"/>
+          <include name="buttons"/>
+          <include name="textbox"/>
+          <include name="brokenLinksImages"/>
+          <include name="beforeSuite"/>
+          <include name="checkbox"/>
+          <include name="webTables"/>
+          <include name="elements"/>
+          <include name="links"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- DemoQa.DemoQa.Elements -->
+      <class name="DemoQa.DemoQa.Forms">
+        <methods>
+          <include name="forms"/>
+          <include name="beforeSuite"/>
+          <include name="PracticeForm"/>
+          <include name="afterSuite"/>
+          <include name="elements"/>
+        </methods>
+      </class> <!-- DemoQa.DemoQa.Forms -->
+      <class name="DemoQa.DemoQa.AlertFrameswindows">
+        <methods>
+          <include name="alerts"/>
+          <include name="beforeSuite"/>
+          <include name="modalDialogs"/>
+          <include name="nestedFrames"/>
+          <include name="frames"/>
+          <include name="alertFramesandWindows"/>
+          <include name="elements"/>
+          <include name="afterSuite"/>
+          <include name="broweserWindows"/>
+        </methods>
+      </class> <!-- DemoQa.DemoQa.AlertFrameswindows -->
+      <class name="DemoQa.DemoQa.Widgets">
+        <methods>
+          <include name="autoComplete"/>
+          <include name="menu"/>
+          <include name="slider"/>
+          <include name="selectMenu"/>
+          <include name="progressBar"/>
+          <include name="tabs"/>
+          <include name="datePicker"/>
+          <include name="elements"/>
+          <include name="afterSuite"/>
+          <include name="Accordian"/>
+          <include name="widgets2"/>
+          <include name="toolTips"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- DemoQa.DemoQa.Widgets -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
