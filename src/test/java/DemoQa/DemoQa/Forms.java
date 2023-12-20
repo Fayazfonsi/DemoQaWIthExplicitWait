@@ -50,8 +50,7 @@ public class Forms {
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//div)[21]")));
 		 driver.findElement(By.xpath("(//div)[21]")).click();
 		 wait1 = new WebDriverWait(driver, Duration.ofSeconds(20));
-		 wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("english"
-		 		+ "")));
+		 wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//div)[25]")));
 		  
 	  
   }
